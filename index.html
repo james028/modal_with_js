@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Modal JS</title>
+
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+    
+      
+      <h1>Dzien Dobry</h1>
+      <p> Jestem Kuba</p>
+      <button class="contact-me-btn">Contact me</button>
+      <div class="modal conctact-me-modal">
+        <button class="close-btn">close me</button>
+        <h2>Skontaktuj się ze mna</h2>
+        <form class="contact-form">
+            <div class="row">
+                <label for="firstname">Imię: </label>
+                <input type="text" class="contact-inp">
+            </div> 
+            <div class="row">
+                <label for="lastname">Nazwisko: </label>
+                <input type="text" class="contact-inp">
+            </div>  
+            <div class="row">
+                <label for="email">E-mail: </label>
+                <input type="text" class="contact-inp">
+            </div>  
+            <div class="row">
+                <label for="msg-text">Treść: </label>
+                <textarea type="text" class="contact-inp"></textarea>
+            </div>  
+            <div class="row">
+                <button type="submit">Wyślij</button>
+            </div>  
+        </form>
+      </div>
+      
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
